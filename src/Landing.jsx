@@ -32,14 +32,14 @@ export default function Landing ()
   return (
    <div className='md:mt-6 h-full w-full relative items-end overflow-hidden'>
       {/* Background Spline, h-[82vh] */}
-      <div className='absolute inset-0 z-0 lg:h-[87vh] md:w-[85%] w-[95%] mx-auto '>
+      <div className='absolute inset-0 z-0 lg:h-[87vh] md:w-[85%] w-[95%] scale-[1] md:scale-100 mx-auto  '>
        <Spline
           scene="https://prod.spline.design/me58Eq-cKj-3LwVM/scene.splinecode" 
        />
       </div>
 
       {/* Robot spline */}
-      <div className=' lg:w-[50%] z-10 md:w-[85%] relative mx-auto top-[20%]'>
+      <div className=' lg:w-[50%] z-10 md:w-[85%] relative mx-auto md:top-[20%] top-[25%] h-[55%]'>
        
         <Spline
           scene="https://prod.spline.design/lRjiagV31Mt8lVSy/scene.splinecode"
