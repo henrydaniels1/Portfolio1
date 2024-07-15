@@ -46,8 +46,8 @@ export default function Landing ()
       />
         </div> */}
         <Spline
-        scene="https://prod.spline.design/lRjiagV31Mt8lVSy/scene.splinecode" 
-      />
+          scene="https://prod.spline.design/lRjiagV31Mt8lVSy/scene.splinecode"
+        />
      </div>
       
     </div>
