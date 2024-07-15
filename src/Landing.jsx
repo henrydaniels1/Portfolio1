@@ -30,7 +30,7 @@ export default function Landing ()
   
 
   return (
-   <div className='md:mt-6 h-full w-full relative items-end overflow-hidden bg-green-500'>
+   <div className='md:mt-6 h-full w-full relative items-end overflow-hidden'>
       {/* Background Spline, h-[82vh] */}
       <div className='absolute inset-0 z-0 lg:h-[87vh] md:w-[85%] w-[95%] mx-auto '>
        <Spline
@@ -39,12 +39,8 @@ export default function Landing ()
       </div>
 
       {/* Robot spline */}
-      <div className=' lg:w-[50%] z-10 bg-red-500 md:w-[85%] md:relative mx-auto'>
-        {/* <div className="">
-           <Spline className='place-content-start '
-        scene="https://prod.spline.design/klYYig7hzo3UDmn0/scene.splinecode" 
-      />
-        </div> */}
+      <div className=' lg:w-[50%] z-10 md:w-[85%] relative mx-auto top-[20%]'>
+       
         <Spline
           scene="https://prod.spline.design/lRjiagV31Mt8lVSy/scene.splinecode"
         />
